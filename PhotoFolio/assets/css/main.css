@@ -12,16 +12,19 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Cardo", sans-serif;
+  
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  
 }
 
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
-  --color-secondary: #161718;
+  --color-primary: #d193e0;
+  --color-secondary: #927896;
 }
 
 /* Smooth scroll behavior */
@@ -35,7 +38,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #000;
+  background-color: #000000;
 }
 
 a {
@@ -44,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #d193e0;
   text-decoration: none;
 }
 
@@ -81,7 +84,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background: #d193e0;
   margin: 4px 10px;
 }
 
@@ -135,7 +138,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: #d193e0;
 }
 
 /*--------------------------------------------------------------
@@ -162,7 +165,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background:#d193e0;
   color: #fff;
 }
 
@@ -286,7 +289,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #000;
+  background-color:  #523657
 }
 
 .header .logo {
@@ -489,7 +492,7 @@ h6 {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background:  #000000;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -916,7 +919,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #5bd9a9;
+  color: #d67cec;
   font-size: 26px;
   line-height: 0;
 }
@@ -1157,7 +1160,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background:#d580eb;
 }
 
 @keyframes animate-loading {
@@ -1229,7 +1232,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #c86ddf;
 }
 
 @media (max-width: 768px) {
